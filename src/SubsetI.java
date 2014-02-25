@@ -7,7 +7,6 @@ public class SubsetI {
 	public static ArrayList<ArrayList<Integer>> subsetsWithDistinct(int[] s) {
 	       if(s== null) return null;
 			Arrays.sort(s);
-			
 			ArrayList<ArrayList<Integer>> subset = new ArrayList<ArrayList<Integer>>();
 			
 			for(int i =0; i< s.length; i++){
