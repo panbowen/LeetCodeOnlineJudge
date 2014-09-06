@@ -16,8 +16,7 @@
  * a^b^c = a^c^b
  * thus two interact with each other, only left the single one
  * 
-
-*/
+ */
 
 public class singleNumber {
 
